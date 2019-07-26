@@ -1,0 +1,101 @@
+{
+	"ScreenName": "Virtual List Test form",
+	"ScreenHelpDescription": "This has a load of ungrouped components to demonstrate how the virtual list rendering works a bit more clearly",
+	"UseVirtualList": true,
+	"DataComponents": [
+		{
+			"ShortCode": "FIRST_NAME",
+			"DisplayTypeShortCode": "TEXTBOX",
+			"Label": "First name",
+			"HelpDescription": "This is your first name dummy!!!!",
+			"RenderAsMobile": true
+		},
+		{
+			"ShortCode": "LAST_NAME",
+			"DisplayTypeShortCode": "TEXTBOX",
+			"Label": "Last name",
+			"RenderAsMobile": true
+		},
+		{
+			"ShortCode": "DOB",
+			"DisplayTypeShortCode": "DATEPICKER",
+			"Label": "Date of birth",
+			"RenderAsMobile": true
+		},
+		{
+			"ShortCode": "PERSONAL_DETAILS_GROUP",
+			"DisplayTypeShortCode": "GROUP",
+			"Label": "Personal details",
+			"CSSClass": "group-card",
+			"Settings": [
+				{ "Id": "DATA_COMPONENTS", "Text": "FIRST_NAME;LAST_NAME;DOB" },
+				{ "Id": "XXXX", "Text": "YYYY" }
+			]
+		},
+		{
+			"ShortCode": "PHONE",
+			"DisplayTypeShortCode": "TEXTBOX",
+			"Label": "Phone number",
+			"RenderAsMobile": true
+		},
+		{
+			"ShortCode": "MOBILE",
+			"DisplayTypeShortCode": "TEXTBOX",
+			"Label": "Mobile number",
+			"RenderAsMobile": true
+		},
+		{
+			"ShortCode": "CONTACT_DETAILS_GROUP",
+			"DisplayTypeShortCode": "GROUP",
+			"Label": "Personal details",
+			"CSSClass": "group-card",
+			"Settings": [
+				{ "Id": "DATA_COMPONENTS", "Text": "PHONE;MOBILE" }
+			]
+		},
+		{
+			"ShortCode": "COLUMN_GROUP",
+			"DisplayTypeShortCode": "GROUP",
+			"Label": "",
+			"CSSClass": "has-2-columns",
+			"Settings": [
+				{ "Id": "DATA_COMPONENTS", "Text": "PERSONAL_DETAILS_GROUP;CONTACT_DETAILS_GROUP" }
+			]
+		},
+		{
+			"ShortCode": "NOT_GROUPED_1",
+			"DisplayTypeShortCode": "TEXTBOX",
+			"Label": "I am not grouped 1",
+			"RenderAsMobile": true
+		},
+		{
+			"ShortCode": "NOT_GROUPED_2",
+			"DisplayTypeShortCode": "TEXTBOX",
+			"Label": "I am not grouped 2",
+			"RenderAsMobile": true
+		},
+		{
+			"ShortCode": "NOT_GROUPED_3",
+			"DisplayTypeShortCode": "TEXTBOX",
+			"Label": "I am not grouped 3",
+			"RenderAsMobile": true
+		},
+		{
+			"ShortCode": "NOT_GROUPED_4",
+			"DisplayTypeShortCode": "DROPDOWN",
+			"Label": "I am not grouped 4",
+			"AllowedValues": [
+				{ "Id": "Option 1", "Text": "Option 1" },
+				{ "Id": "Option 2", "Text": "Option 2" },
+				{ "Id": "Option 3", "Text": "Option 3" }
+			],
+			"RenderAsMobile": true
+		},
+		{
+			"ShortCode": "NOT_GROUPED_5",
+			"DisplayTypeShortCode": "DROPDOWN",
+			"Label": "I am not grouped 5",
+			"RenderAsMobile": true
+		}
+	]
+}
