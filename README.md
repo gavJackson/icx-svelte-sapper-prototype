@@ -1,3 +1,39 @@
+Score card for: Svelte/Sapper - GJ 
+==== 
+
+Summary:
+------
+A totally new approach, a compiler not a framework producing  very performant tiny javascript files, with great tooling and coding experience main concern is how new it all is, it could be the next big thing, or it could fall into obscurity, quite a risk and not as easy a sell as React or Angular who have big names behind them. 
+
+I think the code is pretty simple with very little boiler plate but give me a shout if you run into problems or want anything explaining, warning: I may well have done things wrong as this was my first go with this tech stack.
+
+Cypress and Storybook also impressed.
+
+Measurements: 
+---
+Rendering view
+
+- File size: 53kb
+- TTI: 1.4s
+
+Developer experience scores (out of 10) => 90
+----
+- Getting up and running (learning curve):  8
+- Tooling: 8
+- Extensibility: 6
+- Code quality: 9
+- Ability to meet core requirements: 9
+- Community help: 2
+- Project structure: 7
+- Output: 9
+- Future prospects: 5
+- Lighthouse results (PWA): 9
+- Performance: 10
+- Cross browser compatibility:  5
+- IE11 support: 3
+
+-----
+
 # sapper-template
 
 The default [Sapper](https://github.com/sveltejs/sapper) template, with branches for Rollup and webpack. To clone it and get started:
