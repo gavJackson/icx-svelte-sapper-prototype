@@ -1,4 +1,4 @@
-Score card for: Svelte/Sapper - GJ 
+Score card for: Svelte/Sapper - 135 
 ==== 
 
 Summary:
