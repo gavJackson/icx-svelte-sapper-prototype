@@ -32,6 +32,11 @@ Developer experience scores (out of 10) => 90
 - Cross browser compatibility:  5
 - IE11 support: 3
 
+
+Stage 1 - Requirements met? (5 points for each) => 45
+-----
+[See trello card](https://trello.com/c/6uviXegl/193-score-card-svelte-sapper-135)
+
 -----
 
 # sapper-template
